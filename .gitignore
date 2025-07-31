@@ -1,0 +1,30 @@
+# Файлы Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Базы данных
+*.sqlite3
+*.db
+*.dump
+
+# Виртуальное окружение
+venv/
+.env/
+.env.prod
+.env.local
+
+# Статика и медиа (если собираются автоматически)
+staticfiles/
+media/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Логи и кэш
+*.log
+*.cache
